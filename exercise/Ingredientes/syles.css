@@ -1,0 +1,67 @@
+/* Menú de navegación */
+nav {
+    background-color: #F5E6D3;
+    border: 1px solid #D9B99B;
+    margin-bottom: 20px;
+    width: 180px;
+}
+
+nav a {
+    color: #79513C;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #663022;
+    text-decoration: underline;
+}
+
+/* Estilo general de la página */
+body {
+    background-color: #FFF8EF;
+    color: #3D3028;
+    font-family: 'Nunito', sans-serif;
+    margin: 30px;
+}
+
+/* Título principal */
+h1 {
+    color: #8B3E2F;
+    text-align: center;
+    font-size: 36px;
+}
+
+/* Títulos secundarios */
+h2 {
+    color: #A64B35;
+    border-top: 2px solid #D9B99B;
+    padding-top: 8px;
+}
+
+/* Subtítulos */
+h3 {
+    color: #79513C;
+}
+
+
+/* Imágenes de la página */
+img {
+    border: 3px solid #D9B99B;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/* Espacio entre cada ingrediente */
+li {
+    margin-bottom: 8px;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    color: #79513C;
+    border-top: 1px solid #D9B99B;
+    margin-top: 30px;
+    padding: 10px;
+}
