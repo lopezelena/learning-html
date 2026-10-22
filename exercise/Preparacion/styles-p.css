@@ -70,3 +70,23 @@ img {
     margin-top: 10px;
     margin-bottom: 15px;
 }
+
+footer {
+    display: block;
+    background-color: #F5E6D3;
+    color: #79513C;
+    text-decoration: none;
+    padding: 0px 10px;
+    margin: 5px auto;
+    text-align: center;
+    border: 2px solid #D9B99B;
+    border-radius: 5px;
+    width: 180px;
+      
+}
+
+.linea-separadora{
+    border-top: 2px solid #D9B99B;
+    margin: 30px 0;
+
+}
