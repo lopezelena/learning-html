@@ -4,7 +4,7 @@ body {
     background-color: #FFF8EF;
     color: #3D3028;
     font-family: 'Nunito', sans-serif;
-    margin: 30px;
+    margin: 40px;
 }
 
 /* Título principal */
@@ -17,6 +17,7 @@ h1 {
     text-align: center;
     width: 80%;
     margin: 20px auto;
+
 }
 
 /* Títulos secundarios */
@@ -48,12 +49,26 @@ img {
 }
 
 /* Enlaces */
-a {
-    color: #A64B35;
+.boton {
+    display: block;
+    background-color:#F5E6D3;
+    color:  #553a2c;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border: 2px solid #A64B35;
+    border-radius: 5px;
+    width: 180px;
+    cursor: pointer;
+    transition: 0.3s
 }
 
-a:hover {
+
+.boton:hover {
     color: #663022;
+    text-decoration: underline;
+    transform: scale(1.05)
 }
 
 /* Pie de página */
