@@ -58,6 +58,20 @@ h3 {
     color: #79513C;
 }
 
+/* Enlace página*/
+a {
+    display: inline-block;
+    color: #A64B35;
+    transition: 0.3s
+}
+
+a:hover {
+    color: #663022;
+    text-decoration: underline;
+    transform: scale(1.05)
+
+}
+
 
 /* Imágenes de la página */
 img {
